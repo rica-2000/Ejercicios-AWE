@@ -1,0 +1,6 @@
+<h1> Show de Television </h1>
+<div class="shows-container">
+    <app-show-card *ngFor="let show of shows" [show]="show" (onDeleteEvent)="deleteByName($event)"></app-show-card>
+</div>
+
+<app-controlls (deleteByIndexEvent)="deleteByIndex($event)" (deleteLastEvent)="deleteLast()" (orderByNameEvent)="orderByName()"></app-controlls>
