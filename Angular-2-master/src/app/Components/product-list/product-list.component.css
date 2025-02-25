@@ -1,0 +1,9 @@
+.on-sale {
+    color: green;
+    font-weight: bold;
+  }
+  
+  li {
+    cursor: pointer;
+    margin: 5px 0;
+  }
